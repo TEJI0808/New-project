@@ -1,0 +1,16 @@
+[Unit]
+Description=System Health Monitor and Security Auditing Daemon
+After=local-fs.target
+
+[Service]
+Type=simple
+User=auditmanager
+Group=auditmanager
+WorkingDirectory=/opt/sysaudit
+ExecStart=/usr/bin/python3 /opt/sysaudit/main.py --config /etc/sysaudit/sysaudit.cfg --daemon
+Restart=on-failure
+RestartSec=15
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

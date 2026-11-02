@@ -1,0 +1,12 @@
+SYSTEM HEALTH AUDIT SAMPLE
+Generated: 2026-10-29T22:28:26.427945+00:00
+Hostname: Tejinder
+Operating system: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+Python version: 3.12.3
+Effective user ID: 1000
+Disk total bytes: 1022425894912
+Disk used bytes: 507137949696
+Disk free bytes: 515287945216
+
+NOTE: This is demonstration data from basic system information.
+It is not a complete vulnerability scan or security assessment.
